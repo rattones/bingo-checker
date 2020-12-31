@@ -1,0 +1,25 @@
+.strike {
+  text-decoration: none;
+  background: #900;
+  color: #ddd;
+}
+
+shoulders div {
+  margin: 10px;
+}
+
+shoulders div label, 
+shoulders div input, 
+shoulders div button {
+  font-size: 5rem;
+  width: 125px;
+  height: 125px;
+  margin-left: 5px;
+}
+shoulders div #sorteados {
+  font-size: 3rem;
+  width: 125px;
+  height: 125px;
+  margin-left: 5px;
+}
+ 

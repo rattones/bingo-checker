@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2, 
+  "name": "Bingo do PokemaoBR",
+  "description": "Marcador automático de números para os velhos lerdos da live",
+  "version": "0.0.1",
+  "author": ["ChicaoCodes", "Rattones"],
+  "content_scripts": [
+    {
+      "matches": ["https://pokemaobr.dev/bingo/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
